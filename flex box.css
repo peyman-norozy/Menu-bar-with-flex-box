@@ -1,0 +1,33 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center; /*you can use flex-end or center or space-between or ...*/
+	align-items: flex-start;
+	flex-wrap:wrap;
+}
+
+.home{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+}
+.men{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	}
+.woman{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	}
+.about{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	}
+.contact{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	}
