@@ -1,0 +1,45 @@
+body{
+	font-size: 20px;
+}
+.container{
+	font-family: Palatino;
+	list-style-type: none;
+	background-color: #8A39E1;
+	border: 2px solid black;
+	padding: 0;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.container li a {
+	text-decoration: none;
+	color: #400000;
+}
+
+.container>li {
+	font-size: 1.4em;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.container li:hover {
+	background-color: red;
+}
+.container li a:hover{
+	color:white;
+}
+
+.home{
+	background-color: #FF6B6B;
+}
+.men{
+	background-color: #FFD93D;
+}
+.woman{
+	background-color: #6BCB77;
+}
+.about{
+	background-color: #4D96FF;
+}
+.contact{
+	background-color: #FFF7BC;
+}
